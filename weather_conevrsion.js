@@ -4,7 +4,7 @@ const kelvin = 500;
 const celsius = kelvin - 273;
 //convert celsius to fahrenheit
 let fahrenheit = celsius * (9 / 5) + 32;
-//round down fahrenheit variable
+//round down fahrenheit variables
 fahrenheit = Math.floor(fahrenheit);
 console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`);
 let newton = celsius * (33 / 100);
